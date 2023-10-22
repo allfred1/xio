@@ -1,0 +1,20 @@
+// Определите пользовательский стиль для скролла
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  // Определите цвет фона для полосы прокрутки
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  // Определите цвет полосы прокрутки
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  // Определите цвет при наведении на полосу прокрутки
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  

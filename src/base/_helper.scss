@@ -1,0 +1,103 @@
+/* Файл: _helpers.scss */
+
+// Display
+.inline {
+    display: inline;
+  }
+  
+  .inline-block {
+    display: inline-block;  
+  }
+  
+  .inline-flex {
+    display: inline-flex;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .flex {
+    display: flex;  
+  }
+  
+  // Position  
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .fixed {
+    position: fixed;  
+  }
+  
+  // Z-index
+  @for $i from 1 through 5 {
+    .z-index-#{$i*10} {
+      z-index: $i * 10;
+    }
+  }
+  
+  
+  // Hidden
+  .hidden {
+    display: none;
+  }
+  
+  .visually-hidden {
+    @extend .hidden;
+    
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  // Text truncate
+  .text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .text-nowrap {
+    white-space: nowrap;
+  }
+  
+  // Text align  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  // Text transform
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-lowercase {
+    text-transform: lowercase;
+  }
+  
+  .text-capitalize {
+    text-transform: capitalize; 
+  }
+  
+  // Flex align
+  .align-center {
+    align-items: center;
+  }
