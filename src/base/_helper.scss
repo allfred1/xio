@@ -39,7 +39,21 @@
     .z-index-#{$i*10} {
       z-index: $i * 10;
     }
+}
+  
+  @for $i from 1 through 84 {
+    .padding-#{$i*10} {
+      padding: $i * 10;
+    }
   }
+  
+  @for $i from 1 through 84 {
+    .margin-#{$i*10} {
+      margin: $i * 10;
+    }
+  }
+  
+  
   
   
   // Hidden
