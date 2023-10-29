@@ -1,0 +1,63 @@
+// _reset.scss
+
+@charset "utf-8";
+
+* {
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    &::before {
+        box-sizing: border-box;
+    }
+    &::after {
+        box-sizing: border-box;
+    } 
+}
+
+body {
+    vertical-align: baseline;
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    ol,
+    ul,
+    nav,
+    a {
+        list-style: none;
+        text-decoration: none;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    input,
+    button,
+    textarea,
+    select {
+        font: inherit;
+    }
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        overflow-wrap: break-word;
+    }
+}
