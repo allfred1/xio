@@ -57,12 +57,13 @@ window.addEventListener('resize', function() {
     item.classList.remove('flex-sm','flex-md','flex-lg');
     
     if (width < 768) {
-      item.classList.add('flex-sm');
+      item.classList.add(' flex-sm');
     } else if (width >= 768 && width < 992) {
-      item.classList.add('flex-md');
+      item.classList.add(' flex-md');
     } else {
-      item.classList.add('flex-lg');
+      item.classList.add(' flex-lg');
     }
   }
   
 });
+
